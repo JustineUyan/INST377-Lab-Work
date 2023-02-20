@@ -1,5 +1,61 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justine Uyan's Lab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- wrapper -->
+      <header class="header"><h1>Justine Uyan's Lab for INST377</h1></header>
+      <div class="container">
+        <!-- container -->
+        <div class="left_section box">
+          <!-- left inputs -->
+          <h2>Justine's Favorite Albums</h2>
+          <ol class="box">
+            <li>Kendrick Lamar - To Pimp A Butterfly</li>
+            <li>Nirvana - Nevermind</li>
+            <li>Tyler, The Creator - IGOR</li>
+            <li>Wu-Tang Clan - Enter The Wu-Tang (36 Chambers)</li>
+            <li>Nas - Illmatic</li>
+          </ol>
+        </div>
+        <div class="right_section box">
+          <!-- right side -->
+          <h2>Image Carousel</h2>
+          <div class="carousel">
+              <button class="prev">prev</button>
+              <div class="slides">
+                <!-- images box -->
+                <div class="carousel_item visible"><img id="slide_1" src="images/InitialSponge.jpg" alt="An image of Spongebob and Patrick Driving"/></div>
+                <div class="carousel_item hidden"><img id="slide_2" src="images/Naruto.gif" alt="Image of Naruto" /></div>
+                <div class="carousel_item hidden"><img id="slide_3" src="images/DuckFrog.png" alt="Image of a Frog on top of a duck" /></div>
+                <div class="carousel_item hidden"><img id="slide_4" src="images/Valorant.jpg" alt="Image of Valorant art"/></div>
+              </div>
+              <button class="next">next</button>
+          </div>
+          <div class="box">
+            <!-- description box -->
+            The images of mochi above show 4 different images types. In order,
+            they are: ".jpg", ".gif", ".png", and ".svg" image types. You can
+            download each one to see the differences for yourself!
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      Link to "JustineUyan":
+      <a
+        href="http://github.com/JustineUyan"
+        target="_blank"
+        rel="noopener noreferrer"
+        >JustineUyan Github Account</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
